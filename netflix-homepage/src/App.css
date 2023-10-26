@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 20px 0 20px 50px;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px 0;
+  font-weight: 700px;
+}
+
+.images {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.images::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  max-width: 341px;
+  max-height: 192px;
+}
