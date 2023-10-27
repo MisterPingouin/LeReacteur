@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  background-color: red;
+}
