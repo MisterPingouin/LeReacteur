@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
